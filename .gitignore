@@ -2,6 +2,7 @@
 venv/
 __pycache__/
 *.pyc
+tf-env311/ 
 
 /data
 # VS Code
