@@ -1,0 +1,7 @@
+Imágenes procesadas: 3000
+Éxitos: 3000
+Fallos: 0
+
+Métricas promedio:
+CER: 0.9220
+WER: 0.9927
