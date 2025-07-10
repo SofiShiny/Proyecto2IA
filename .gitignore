@@ -1,14 +1,38 @@
-# Python
+# === Entornos Virtuales y Configuraciones de IDE ===
+.env/                    # Entornos virtuales
+.venv/
 venv/
-__pycache__/
-*.pyc
-tf-env311/ 
+tf-env311/               # Tu entorno virtual específico
+.vscode/                 # Configuración de VS Code
+.idea/                   # Configuración de PyCharm
+*.swp                    # Archivos temporales de Vim
 
-/data
-# VS Code
-.vscode/
-.ipynb_checkpoints/
+# === Archivos de Python ===
+__pycache__/             # Caché de Python
+*.py[cod]                # Bytecode de Python
+*.so                     # Extensiones compiladas
+*.egg-info/              # Metadatos de paquetes
+dist/                    # Distribuciones de paquetes
+build/                   # Archivos de construcción
 
-# Windows
-Thumbs.db
-.DS_Store
+# === Datos y Modelos ===
+data/IIITK5/Words/       # Dataset de imágenes 
+data/twitter/raw/        # Datos crudos de Twitter
+
+
+# === Configuraciones Sensibles ===
+config.py                # Archivo de configuración
+*.env                    # Variables de entorno
+*.key                    # Claves de API
+
+# === Archivos del Sistema ===
+.DS_Store                
+Thumbs.db                # Metadatos de Windows
+desktop.ini
+
+
+# === Excepciones Importantes ===
+!requirements.txt        # Debe versionarse
+!README.md               # Documentación principal
+!data/IIITK5/testCharBound.csv  # Labels de prueba
+!data/IIITK5/trainCharBound.csv # Labels de entrenamiento
