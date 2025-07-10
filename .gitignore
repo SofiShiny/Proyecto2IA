@@ -2,7 +2,8 @@
 .env/                    # Entornos virtuales
 .venv/
 venv/
-tf-env311/               # Tu entorno virtual específico
+tf-env311/        
+/tf-env312/            # Entornos virtuales de TensorFlow
 .vscode/                 # Configuración de VS Code
 .idea/                   # Configuración de PyCharm
 *.swp                    # Archivos temporales de Vim
