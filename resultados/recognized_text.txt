@@ -1,0 +1,4 @@
+TEXTO RECONOCIDO:
+A A A A
+
+SENTIMIENTO: error (Confianza: 0.00%)
